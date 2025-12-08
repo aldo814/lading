@@ -3,6 +3,7 @@
 .orange{color: var(--primary);}
 .white{color: #fff;}
 .img_wrap img{max-width: 100%;}
+.video_wrap .video{width:100%}
 .tlt{text-align: left;}
 strong{font-weight: 500;}
 
@@ -15,7 +16,7 @@ strong{font-weight: 500;}
 .r_header .lang_area .lang_list li a{display: block;text-align: center;padding:8px 10px;font-size: .9375rem;transition: all 0.3s;color: #666}
 .r_header .lang_area .lang_list li a:hover{background: #666;color: #fff;;}
 
-.r_header_cont{max-width: 400px;width: calc(100% - 40px);}
+.r_header_cont{max-width: 400px;width: calc(100% - 60px);}
 .r_header_cont .logo_area .desc{color: var(--gray-400, #999);text-align: center;font-size: 1.125rem;font-weight: 500;letter-spacing: -0.36px;margin-bottom: 3.125rem;}
 .r_header_cont .logo_area .img {text-align: center;}
 .r_header_cont .logo_area .txt{margin-top: 1.75rem;text-align: center;font-family: Philosopher;display: flex;flex-direction: column;gap: 7px;} 
