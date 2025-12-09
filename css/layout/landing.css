@@ -174,3 +174,4 @@ strong{font-weight: 500;}
 /* r_slide */
 .r_slide{position: sticky;height: 100vh;right: 0;top: 0;}
 .r_slide .r_swiper{height: 100vh;}
+.r_slide .r_swiper img{height:100%;object-fit:cover;width:100%}
