@@ -40,26 +40,6 @@
 
 
 
-/** 노스보드 공통 **/
-@import url('../../common/css/common.css'); /**팝업,404등 공통 CSS**/
-@import url('../../common/css/board.css');  /**게시판 CSS**/
-@import url('../../common/css/member.css');  /**멤퍼 CSS**/
-@import url('../../common/css/sub.css');  /**서브공통 CSS**/
-
-
-
-/** 홈페이지의 레이아웃 **/
-@import url('layout/layout.css');
-@import url('layout/header.css');
-@import url('layout/footer.css');
-
-
-/** 라이브러리 **/
-@import url('libs/jquery.ui.css');
-@import url('libs/swiper-bundle.css');
-@import url('libs/aos.css');
-
-
 
 
 
