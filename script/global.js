@@ -44,5 +44,16 @@ const r_swiper = new Swiper('.r_swiper', {
     }
   });
 
+  $('.selet_wrap button').on('click', function(){
+    const parentBox = $(this).closest('.inner'); // 부모의 부모
+    const viewCont = parentBox.find('.view_cont');  // 그 안의 view_cont
+
+    viewCont.stop().slideToggle(300);
+
+    // 화살표 회전
+    $(this).toggleClass('active');
+});
+
+
 
 });

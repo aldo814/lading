@@ -24,7 +24,7 @@
         <ul class="lang_list">
           <li><a href="landing_en.html">En</a></li>
           <li><a href="landing_ru.html">Ru</a></li>
-          <li><a href="#">Jp</a></li>
+          <li><a href="landing_jp.html">Jp</a></li>
         </ul>
       </div>
 
@@ -86,7 +86,7 @@
                 <p class="txt">years</p>
               </div>
             </div>
-            <p class="bottom">ANNUVERSARY</p>
+            <p class="bottom">ANNIUVERSARY</p>
           </div>
         </section>
         <section class="sec_about_cont">
@@ -445,8 +445,17 @@
   Больница Kwangdong<br>
   Сеул, район Каннам, ул. Бонгынса-ро 612
 </p>
+<div id="map">
+  <iframe
+  src="https://maps.google.com/maps?q=37.5142598,127.0595566&z=16&hl=ru&output=embed"
+  width="600"
+  height="600"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy">
+</iframe>
 
-              <div id="map"></div>
+</div>
           </div>
         </section>
       </main>
@@ -489,7 +498,6 @@
   </div>
 
 
-  <script src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=bc2090f7e82ede933bebd3741fdacf3d&autoload=false"></script>
   <script>
    const accessToken = 'IGAA6cvBFRf8hBZAFJYS1hOVGFrWmI1QkIyNnpNMzQ5ZAzNlMGdRXzAtb1QyeDg1eUtRNEVoOWhxMWlRYlVQQXVCNTZAuZAUQ1andQdktJemxySXpJVlpjczN2ZAFR0Rzc1YVlvc2s1NHBOOTR5bkdPZADk2Nmk4b1VOZA1o0Q2dHckZArUQZDZD';
 const igUserId = '17841405633739646';
@@ -525,17 +533,6 @@ fetch(`https://graph.instagram.com/${igUserId}/media?fields=id,caption,media_typ
     const container = document.getElementById('insta-thumbnails');
     container.textContent = "인스타그램 게시물을 불러올 수 없습니다.";
   });
-  // 카카오맵
-   // 1️⃣ Kakao Map
-   kakao.maps.load(function() {
-      var container = document.getElementById('map');
-      var options = {
-        center: new kakao.maps.LatLng(33.450701, 126.570667),
-        level: 3
-      };
-      var map = new kakao.maps.Map(container, options);
-      console.log('카카오맵 로드 완료');
-    });
 
 
   </script>
