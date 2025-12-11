@@ -211,7 +211,7 @@ strong{font-weight: 500;}
 .r_slide .r_swiper img{height:100%;object-fit:cover;width:100%}
 
 
-.view_cont{line-height: 140%;letter-spacing: -.72px;display: none;}
+.view_cont{line-height: 140%;letter-spacing: -.72px;display: none;margin-bottom: 3.75rem;}
 .view_cont .txt{margin-bottom: 2.5rem;}
 .view_cont .txt:last-child{margin-bottom: 0;}
 .view_cont .txt .f18{margin-bottom: 5px;}
